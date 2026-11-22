@@ -6,3 +6,9 @@
   border-radius: 5px;
   padding: 40px 45px;
 }
+
+@media (max-width: 480px) {
+  .to-do__item {
+    padding-inline: 16px;
+  }
+}

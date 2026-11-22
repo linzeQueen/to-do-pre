@@ -5,4 +5,11 @@
   line-height: 29px;
   color: #fff;
   padding-inline-end: 50px;
+  overflow-wrap: anywhere;
+}
+
+@media (max-width: 480px) {
+  .to-do__item-text {
+    padding-inline-end: 0;
+  }
 }
